@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>forms</title>
+    <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">fill the form to continue</h1>
+    <script>function cancel(){if document.querySelector('button').innerhtml = 'you just tapped cancel button'  </script>
+</head>
+<body>
+<style>
+    form{border: solid black 5px; text-align: center; padding: 5%;
+    background-color: darkolivegreen;color: black;
+    }
+</style>
+<script src="name.html"></script>
+<form id="qwerty">
+<label for="c1">first name : </label>
+<input type="text" id="c1" placeholder="enter first name"><br>
+<br>
+
+<label for="c2">last name : </label>
+<input type="text" id="c2" placeholder="enter last name "><br>
+<br>
+<label for="c3">password :</label>
+<input type="password" id="c3" placeholder="enter password"><br>
+<br>
+<label for="c4">enter e-mail : </label>
+<input type="email" id="c4" placeholder="enter Email address"><br>
+<br>
+<label for="c5">phone : </label>
+<input type="number" id="c5" placeholder="enter your phone number"><br>
+<br>
+<label for="c6">gender : </label>
+male<input type="radio" id="c6" name="gender" value="male">
+female<input type="radio" id="c6" name="gender" value="female"><br>
+<br>
+dob : <input type="date"><br><br>
+<label for="c7">favourite game : </label>
+<select>
+    <option>select</option>
+    <option value="hk"> hockey</option>
+    <option value="ck">cricket</option>
+    <option value="shut">badminton</option>
+    <option value="ches">chess</option>
+</select><BR></BR>
+<input type="checkbox" >AGREE ALL THE T & C <br>
+
+<br><br>
+<!-- http://127.0.0.1:5500/assetes.html/IMG_4533.jpeg -->
+<button type="button" onclick= 'document.getElementById("qwerty").innerHTML = "its just a demo website dude"'>cancel</button>
+
+<button type="button" onclick= 'document.getElementById("qwerty").innerHTML = "you just tapped submit button"'>submit</button>
+
+<br>
+<br>
+<br>
+
+<button onclick="window.print()">download</button>
+</form>
+
+
+</body>
+</html>
